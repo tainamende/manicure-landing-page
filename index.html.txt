@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manicure - Beleza nas Mãos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho com o nome da empresa -->
+    <header>
+        <h1>Beleza nas Mãos</h1>
+        <p>Sua manicure de confiança.</p>
+    </header>
+
+    <!-- Seção Sobre a Empresa -->
+    <section class="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Na Beleza nas Mãos, oferecemos serviços de manicure e pedicure de alta qualidade. Nossa missão é cuidar da saúde e beleza das suas unhas, proporcionando uma experiência agradável e relaxante.</p>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-grid">
+            <div class="servico">
+                <h3>Manicure Clássica</h3>
+                <p>Cuidados tradicionais para suas unhas, deixando-as lindas e saudáveis.</p>
+            </div>
+            <div class="servico">
+                <h3>Esmaltação em Gel</h3>
+                <p>Durabilidade e brilho prolongado para as suas unhas com esmaltação em gel.</p>
+            </div>
+            <div class="servico">
+                <h3>Alongamento de Unhas</h3>
+                <p>Unhas longas e resistentes com técnicas modernas de alongamento.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Vantagens e Benefícios -->
+    <section class="vantagens">
+        <h2>Por que nos escolher</h2>
+        <ul>
+            <li>Profissionais altamente qualificados</li>
+            <li>Ambiente confortável e higiênico</li>
+            <li>Produtos de qualidade premium</li>
+            <li>Atendimento personalizado</li>
+            <li>Horários flexíveis</li>
+        </ul>
+    </section>
+
+    <!-- Seção Formulário de Contato -->
+    <section class="contato">
+        <h2>Entre em Contato</h2>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Seção Informações Adicionais -->
+    <section class="informacoes">
+        <h2>Outras Informações</h2>
+        <p>Estamos localizados no centro da cidade, com fácil acesso e estacionamento gratuito. Agende seu horário e venha nos conhecer!</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Beleza nas Mãos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
